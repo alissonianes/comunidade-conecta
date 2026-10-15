@@ -1,0 +1,178 @@
+
+/* Configurações gerais */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #263445;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Títulos */
+h1 {
+    color: #ffffff;
+    background-color: #174a7e;
+    padding: 22px;
+    border-radius: 10px;
+    margin-top: 0;
+    font-size: 28px;
+}
+
+h2 {
+    color: #174a7e;
+    margin-top: 28px;
+}
+
+/* Links */
+a {
+    color: #1769aa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Formulário */
+form {
+    background-color: #ffffff;
+    padding: 22px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #93c5fd;
+    border-color: #1769aa;
+}
+
+/* Botões */
+button,
+input[type="submit"] {
+    background-color: #1769aa;
+    color: #ffffff;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #124d80;
+}
+
+/* Lista de participantes e eventos */
+hr {
+    border: none;
+    border-top: 1px solid #d6dee8;
+    margin: 22px 0;
+}
+
+body > p,
+body > h3 {
+    line-height: 1.6;
+}
+
+/* Tabelas, caso existam */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin-top: 18px;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #d6dee8;
+    text-align: left;
+}
+
+th {
+    background-color: #174a7e;
+    color: #ffffff;
+}
+
+/* Mensagens */
+.sucesso {
+    background-color: #dcfce7;
+    color: #166534;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.erro {
+    background-color: #fee2e2;
+    color: #991b1b;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+/* Menu principal do painel */
+.menu-cartoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.cartao-menu {
+    display: block;
+    background-color: #ffffff;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #d6dee8;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cartao-menu:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+    text-decoration: none;
+}
+
+.cartao-menu h3 {
+    color: #174a7e;
+    margin-top: 0;
+}
+
+.cartao-menu p {
+    color: #526274;
+    margin-bottom: 0;
+}
+
+.sair {
+    margin-top: 30px;
+}
