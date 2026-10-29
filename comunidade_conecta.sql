@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 27/10/2026 às 14:38
+-- Tempo de geração: 29/10/2026 às 16:12
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.0.30
 
@@ -126,7 +126,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id`, `nome`, `email`, `senha`) VALUES
-(1, 'Administrador', 'admin@comunidade.com', '123456');
+(1, 'Administrador', 'admin@comunidade.com', '$2y$10$.brjbUeswEP0ZrDfbzMQu.NXjQmkHbAk9C92DBtZpCLLONc12CRFW');
 
 --
 -- Índices para tabelas despejadas
